@@ -27,7 +27,7 @@ The result should be as following:
 The solution is based on .NET 8 and C# 13.
 
 HeavyFileSorter is designed to efficiently sort and manage large datasets by breaking them into manageable chunks, processing them concurrently, and ensuring data integrity throughout the process.
-Expected execution time is less than 15 sec for 1GB (20M strings) of input data, maximum RAM consumption is up to about 2.5 GB even for heavy files.
+Expected execution time is less than 15 sec for 1GB (20M strings) of input data (using 8 cores CPU), maximum RAM consumption is up to about 2.5 GB even for heavy files.
 
 Sorting algorithm is case insensitive.
 
