@@ -1,21 +1,31 @@
 The solution is based on .NET 8 and C# 13.
+
 TestDataGenerator
+
 To generate test data please use TestDataGenerator.
-usage: TestDataGenerator.exe
-            [--count] [-c] <countOfRecords>
-            [--output] [-o] <outputFile>
+usage:
+
+TestDataGenerator.exe
+
+            --count | -c <countOfRecords>
+            --output | -o <outputFile>
 
 HeavyFileSorter
+
 usage: 
+
       --input | -i <inputFile>
   	Description: Specifies the path to the input file that contains the data to be processed.
 			Example: --input inputFile.txt or -i inputFile.txt
+   
      --output | -o <outputFile>
 			Description: Specifies the path to the output file where the processed data will be saved.
 			Example: --output outputFile.txt or -o outputFile.txt
+   
 	   --check | -c <fileNameToCheck>
 			Description: Specifies the path to a file that should be checked to see if it is sorted.
 			Example: --check fileToCheck.txt or -c fileToCheck.txt
+   
 		help | --help | -h
 			Description: Displays usage information for the program.
 			Example: help
