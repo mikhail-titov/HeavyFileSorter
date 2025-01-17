@@ -33,7 +33,7 @@ usage:
 
 HeavyFileSorter is designed to efficiently sort and manage large datasets by breaking them into manageable chunks, processing them concurrently, and ensuring data integrity throughout the process.
 Expected execution time is less than 15 sec for 1GB (20M strings) of input data, maximum RAM consumption is up to about 2.5 GB even for heavy files.
-Input string shoul contain text with the specified foramt like "123456. Some text".
+Input string should contain text with the specified format like "123456. Some text".
 Where number is signed long integer and each string has length up to 1024 ASCII symbols.
 Sorting algorithm is case insensitive.
 
