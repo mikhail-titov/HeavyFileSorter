@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/DataProcessor/bin/Debug/net8.0
+/DataProcessor/obj
+/TestDataGenerator/bin/Debug/net8.0
+/TestDataGenerator/obj/Debug/net8.0
+/TestDataGenerator/obj
