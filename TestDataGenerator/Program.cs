@@ -4,7 +4,6 @@
 	{
 		try
 		{
-
 			int stringsCount = 0;
 			bool countParsed = false;
 			bool countProvided = false;
